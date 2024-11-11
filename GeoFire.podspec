@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Database'
 
   s.subspec 'Database' do |db|
-    db.ios.dependency 'Firebase/Database', '~> 10.1'
+    db.ios.dependency 'Firebase/Database', '~> 11.0'
     db.ios.dependency 'GeoFire/Utils'
     db.public_header_files = "GeoFire/API/*"
     db.source_files = ["GeoFire/Implementation/*", "GeoFire/API/*"]
